@@ -39,3 +39,19 @@ h1 {
 }
 
 /** CODIGO AQUI **/
+@media (min-width: 768px) {
+  /* 1º forma de realizar 3 columnas iguales
+  .contenedor{
+    display: flex;
+    gap: 2rem;
+  } */
+
+  /* 2º forma de realizar 3 columnas iguales */
+  .contenedor{
+    display: flex;
+    justify-content: space-between;
+  }
+  .entrada-blog{
+    flex: 0 0 calc(33.3% - 1rem);
+  }
+}

@@ -8,6 +8,6 @@
 
 ## Detalles de Flexbox
 
-    "GAP:" para separacion de columnas no tiene soporte al 100%
+    "GAP:" para separacion de columnas no tiene soporte al 100%- RELATIVAMENTE NUEVO
     en cambio
-    "FLEX:" Tiene soporte al 100%
+    "FLEX: 0 0 calc()" Tiene soporte al 100%
