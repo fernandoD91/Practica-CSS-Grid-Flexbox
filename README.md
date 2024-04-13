@@ -22,3 +22,7 @@ en cambio
 ### Sidebar
 
 ![alt text](img/sidebar.png) 
+
+### Layout Shifter
+
+![alt text](img/layout-shifter.png)
