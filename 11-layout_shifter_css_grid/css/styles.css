@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 1.6rem;
     line-height: 2;
 }
@@ -39,7 +39,7 @@ p {
 
 .entrada-blog a {
     display: inline-block;
-    background-color: #2196F3;
+    background-color: #2196f3;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -47,5 +47,53 @@ p {
     text-transform: uppercase;
 }
 
-
 /** CODIGO AQUI **/
+@media (min-width: 768px) {
+    .contenedor {
+        display: grid;
+        grid-template-areas:
+            "principal"
+            "aside";
+    }
+    .principal {
+        grid-area: principal;
+        display: grid;
+        /* grid-template-areas: "entrada1 entrada2"; */
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+    .aside {
+        grid-area: aside;
+        /* }
+    .entrada-blog-1 {
+        grid-area: entrada1;
+    }
+    .entrada-blog-2 {
+        grid-area: entrada2;
+        grid-column: 2/3;
+        grid-row: 1/2;
+    } */
+    }
+}
+@media (min-width: 992px) {
+    .contenedor {
+        grid-template-areas: "principal aside";
+        column-gap: 2rem;
+    }
+    .principal {
+        grid-area: principal;
+        grid-template-columns: unset;
+        grid-template-areas:
+            "entrada1"
+            "entrada2";
+    }
+    .entrada-blog-1 {
+        grid-area: entrada1;
+    }
+    .entrada-blog-2 {
+        grid-area: entrada2;
+    }
+    .aside {
+        grid-area: aside;
+    }
+}
