@@ -48,3 +48,19 @@ p {
 }
 
 /** CODIGO AQUI **/
+@media (min-width: 768px) {
+  .contenedor{
+    display: flex;
+    justify-content: space-between;
+    /* column-gap: 2rem; otra forma */
+  }
+  .contenido-main{
+    flex: 0 0 calc(60% - 1rem);
+  }
+  .sidebar{
+    flex: 0 0 calc(20% - 1rem);
+  }
+  .sidebar-1{
+    order: -1;
+  }
+}
