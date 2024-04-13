@@ -11,3 +11,11 @@
     "GAP:" para separacion de columnas no tiene soporte al 100%- RELATIVAMENTE NUEVO
     en cambio
     "FLEX: 0 0 calc()" Tiene soporte al 100%
+
+### Column-Drop
+
+![alt text](img/column-drop.png)
+
+### Sidebar
+
+![alt text](img/sidebar.png) 
