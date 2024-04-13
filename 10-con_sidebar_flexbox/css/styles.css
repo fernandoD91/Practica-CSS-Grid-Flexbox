@@ -49,3 +49,15 @@ p {
 
 
 /** CODIGO AQUI **/
+@media (min-width: 768px) {
+  .contenedor{
+    display: flex;
+    gap: 2rem;
+  }
+  .principal{
+    flex: 3;
+  }
+  aside{
+    flex: 1;
+  }
+}
